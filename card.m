@@ -1,3 +1,4 @@
+% test
 function card
 cardFig=uifigure('units','pixels',...
     'position',[320 120 360 400],...
@@ -13,7 +14,7 @@ bkgLabel.Text='';
 bkgLabel.BackgroundColor=[193 214 232]./255;
 
 
-%绘制狗狗和获胜标签========================================================
+%绘制狗狗和获胜标签======================================================
 dogMat=ones(5,5); %数据矩阵
 imgSource={'images\doga.png','images\dogb.png'}; %狗狗图片链接
 bkgColor=[[252 251 238]./255;[222 248 252]./255];%狗狗图背景颜色
